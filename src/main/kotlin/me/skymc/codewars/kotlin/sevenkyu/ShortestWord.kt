@@ -1,6 +1,4 @@
-@file:Suppress("PackageName")
-
-package me.skymc.codewars.kotlin.`7kyu`
+package me.skymc.codewars.kotlin.sevenkyu
 
 object ShortestWord {
 

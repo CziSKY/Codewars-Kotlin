@@ -1,6 +1,4 @@
-@file:Suppress("PackageName")
-
-package me.skymc.codewars.kotlin.`8kyu`
+package me.skymc.codewars.kotlin.eightkyu
 
 object KeepHydrated {
 
