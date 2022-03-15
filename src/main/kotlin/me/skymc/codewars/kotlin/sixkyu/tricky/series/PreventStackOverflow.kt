@@ -1,4 +1,4 @@
-package me.skymc.codewars.kotlin.sixkyu
+package me.skymc.codewars.kotlin.sixkyu.tricky.series
 
 import kotlin.random.Random
 
