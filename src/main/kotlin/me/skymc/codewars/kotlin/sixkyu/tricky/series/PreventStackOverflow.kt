@@ -11,7 +11,7 @@ object PreventStackOverflow {
         }
     }
 
-    tailrec fun loop(random: Random, int: Int): Int {
+    private tailrec fun loop(random: Random, int: Int): Int {
         return if (int <= 0) random.nextInt()
         else {
             random.nextInt()

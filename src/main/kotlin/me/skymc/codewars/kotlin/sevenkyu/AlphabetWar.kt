@@ -2,9 +2,9 @@ package me.skymc.codewars.kotlin.sevenkyu
 
 object AlphabetWar {
 
-    private val leftPowerMap = mutableMapOf(Pair('w', 4), Pair('p', 3), Pair('b', 2), Pair('s', 1))
+    private val leftPowerMap = mutableMapOf('w' to 4, 'p' to 3, 'b' to 2, 's' to 1)
 
-    private val rightPowerMap = mutableMapOf(Pair('m', 4), Pair('q', 3), Pair('d', 2), Pair('z', 1))
+    private val rightPowerMap = mutableMapOf('m' to 4, 'q' to 3, 'd' to 2, 'z' to 1)
 
     fun alphabetWar(fight: String): String {
         var leftCounts = 0
