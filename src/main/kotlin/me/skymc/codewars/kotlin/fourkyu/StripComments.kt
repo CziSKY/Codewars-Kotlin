@@ -12,7 +12,7 @@ object StripComments {
         markers.forEach { marker ->
             forEachIndexed { index, c ->
                 if (c == marker) {
-                    return substring(0, index - 1).trim()
+                    return substring(0, index - 1).trimEnd()
                 }
             }
         }

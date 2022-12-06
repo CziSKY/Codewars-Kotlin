@@ -1,4 +1,4 @@
-package me.skymc.codewars.kotlin.sixkyu.tricky.series
+package me.skymc.codewars.kotlin.tricky.series
 
 object DefineAFunction {
 
